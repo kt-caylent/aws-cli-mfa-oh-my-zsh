@@ -1,10 +1,12 @@
 # oh-my-zsh-aws-mfa
 oh-my-zsh plugin for AWS CLI MFA
-based on [https://github.com/sweharris/aws-cli-mfa](https://github.com/sweharris/aws-cli-mfa)
-support for passing totp as an argument added by [kt-caylent](https://github.com/kt-caylent)
+
+Based upon [https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh](https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh) and [https://github.com/sweharris/aws-cli-mfa](https://github.com/sweharris/aws-cli-mfa).
+
+Support for passing totp as an argument added by [kt-caylent](https://github.com/kt-caylent)
 
 ## Install Oh-My-Zsh AWS MFA Plugin
-1) ```git clone --depth=1 https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh.git "$ZSH/custom/plugins/aws-mfa"```
+1) ```git clone --depth=1 https://github.com/kt-caylent/aws-cli-mfa-oh-my-zsh.git "$ZSH/custom/plugins/aws-mfa"```
 2) enable it in plugins=(... aws-mfa) in your zshrc file
 3) source ~/.zshrc
 
